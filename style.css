@@ -1,0 +1,147 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+    border: none;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.center{
+    display: block;
+    margin: 0 auto;
+}
+.block{
+    display: block;
+}
+.inline{
+    display: inline;
+}
+.inline-block{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+.clear::after{
+    clear: both;
+    display: block;
+    content: '';
+    width: 100%;
+}
+
+/* --------------------------------------------- */
+header{
+width: 100%;
+height: 50px;
+border: 1px solid black;
+background-color: blue;
+}
+.adtop , .adbot{
+    height: 150px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: yellow;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.topnews{
+    height: 820px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: orange;
+}
+.topnewschild{
+    height: 820px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: navy;
+    margin: 0 auto;
+}
+.topnewschildlarge{
+    height: 480px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: yellowgreen;
+    
+}
+.topnewschildlarge1{
+    height: 480px;
+    width: 50%;
+    border: 1px solid black;
+    background-color: olive;
+    
+}
+.topnewschildlarge2{
+    height: 480px;
+    width: 50%;
+    border: 1px solid black;
+    background-color: orchid;
+    
+}
+.topnewschildsmall{
+    height: 340px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: lightpink;
+    
+}
+.topnewschildsmall1{
+    height: 340px;
+    width: 34%;
+    border: 1px solid black;
+    background-color: indigo;
+    
+}
+.topnewschildsmall2{
+    height: 340px;
+    width: 33%;
+    border: 1px solid black;
+    background-color: yellowgreen;
+    
+}
+.topnewschildsmall3{
+    height: 340px;
+    width: 33%;
+    border: 1px solid black;
+    background-color: gray;
+    
+}
+.main{
+    height: 3000px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: #eee;
+}
+.sidebar{
+    height: 3000px;
+    width: 300px;
+    border: 1px solid black;
+    background-color: teal;
+}
+.content{
+    height: 3000px;
+    width: calc(100% - 300px);
+    border: 1px solid black;
+    background-color: lightblue;
+}
+.main2{
+    height: 400px;
+    width: 100% ;
+    border: 1px solid black;
+    background-color: thistle;
+}
+footer{
+    height: 400px;
+    width: 100% ;
+    border: 1px solid black;
+    background-color: silver;
+}
